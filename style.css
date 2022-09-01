@@ -127,6 +127,18 @@ footer{
     display: flex;
     align-items: center;
 }
+@media screen and (min-width: 1024px) {
+    .flex-center {
+        flex-direction:row;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .flex-center {
+        width: calc(100%);
+        flex-direction:column;
+    }
+}
 
 
 /*  */
