@@ -75,6 +75,29 @@ footer{
 /*  */
 /* The animation code */
 /*  */
+@keyframes expo {
+    0% {background-image: url("01.JPEG");}
+    25% {background-image: url("02.JPEG");}
+    50% {background-image: url("03.JPEG");}
+    100% {background-image: url("04.JPEG");}
+}
+
+.expo-anim{
+    width:100vw;
+    height: auto;
+    padding-top: 95%;
+    margin: 0 auto;
+    display: block;
+    background-color: black;
+    background-position: center 4vw;
+    background-size: 68%;
+    background-repeat: no-repeat;
+    animation-name: expo;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+
+}
+
 @keyframes example {
     0% {background-image: url("grid/91.png");}
     4% {background-image: url("grid/86.png");}
