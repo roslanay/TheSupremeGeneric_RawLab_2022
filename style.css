@@ -21,7 +21,7 @@ p{
     font-weight: 200;
     word-spacing: -0.5;
     line-height: 1.5;
-    padding-right: 8vw;
+    /* padding-right: 8vw; */
     padding-bottom: 1.6vw;
 
 }
@@ -43,12 +43,14 @@ footer{
     writing-mode: vertical-lr;
     position: absolute;
     left: 1vw;
-    top: 4vw;
-    font-size: 2.2vh;
+    top: 1vw;
+    font-size: 2vh;
     position: fixed;
     z-index: 1;
     word-spacing: 5px;
     letter-spacing: 1;
+    background-color: black;
+    padding: 1vw 0;
 }
 .meta span{
     transform: rotate(-90deg);
@@ -172,7 +174,7 @@ footer{
 .mock-up p{
     position: absolute;
     left: 8vw;
-    bottom: 10vw;
+    bottom: 0;
 }
 /*  */
 /* Image-Grid */ 
@@ -235,3 +237,43 @@ footer{
         height: 100%;
     }
 }
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .grid-caption{
+      /* padding-left: 6vw; */
+      padding: 1vw 6vw 3vw;
+      display: block;
+      width: 100vw;
+  }
